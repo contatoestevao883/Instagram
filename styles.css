@@ -1,0 +1,387 @@
+body {
+    font-family: "Roboto";
+    background: #E5E5E5;
+}
+
+ion-icon{
+    font-size: 20px;
+}
+
+header .logo-instagram-mobile {
+    display: none;
+}
+
+header {
+    position: fixed;
+    z-index: 1;
+    width: 1366px;
+    height: 62px;
+    top: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+}
+
+header .logo-instagram { 
+    display: flex;
+    align-items: center;
+}
+
+header .logo-text {
+    margin-top: 5px;
+    width: 103px;
+    height: 29px;
+}
+
+header .logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+header .rectangle {
+    width: 1px;
+    height: 22px;
+    background: #DBDBDB;
+    margin-right: 10px;
+}
+
+header input {
+    width: 215px;
+    height: 28px;
+    background: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    margin-top: 14px;
+}
+
+header input::placeholder {
+    color: #979797;
+    padding-left: 75px;
+}
+
+nav img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.main-container {
+    display:flex;
+    flex-direction: row;
+}
+
+.stories {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 614px;
+    height: 118px;
+    margin-top: 120px;
+    margin-left: 220px;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+}
+
+.stories .stories-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.stories .story {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./img/stories_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+
+.story img{
+    width:60px;
+    height: 60px;
+    padding:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.stories .first-story {
+    margin-left: 80px;
+}
+
+.stories .vector{
+    color:rgb(66, 16, 16);
+    filter: drop-shadow(0px 4px 4px gray);
+    position:relative;
+    top: 0;
+    right: 75px;
+    cursor: pointer;
+}
+
+.main {
+    width: 614px;
+    display: flex;
+}
+
+main .content {
+    width: 614px;
+    height: 769px;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    margin-left: 220px;
+    margin-top: 24px;
+    margin-bottom: 66px;
+}
+
+main .box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .div-user {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+main .div-user img{
+    margin-right: 10px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+main .div-user span {
+    font-weight: 500;
+}
+
+main .div-dots img {
+    width: 20px;
+    height: 20px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+main img {
+    width: 612px;
+    height: 612px;
+}
+
+main .post-icons { 
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+main .post-icons-img img{ 
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+main .post-icons .vector2 img {
+    width: 14px;
+    height: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+main .likes-from-users {
+    display: flex;
+    align-items: center;
+    margin:10px
+}
+
+main .likes-from-users img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+main .likes-from-users span{
+    font-weight: 300;
+}
+
+aside{
+    position: absolute;
+    padding-top: 150px;
+    margin-left: 870px;
+}
+
+aside span {
+    font-weight: 500;
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+aside p {
+    margin-left: 10px;
+    color: #8E8E8E;
+    margin-left: 15px;
+    font-weight: 300;
+}
+
+
+.sugestion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    width: 250px;
+    margin-bottom: 15px;
+}
+
+.sugestion span {
+    color: #8E8E8E;
+    font-weight: 500;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.sugestion .see-all {
+    color: #262626;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.sidebar{
+    display: flex;
+    align-items: center;
+}
+
+.contact-users, .contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-users .contact span{
+    color: #262626;
+}
+
+.contact-users .contact p{
+    color: #8E8E8E;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.contact .users {
+    margin-top: 10px;
+}
+
+.contact-users a {
+    color: #139EF2; 
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+@media (max-width:935px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header {
+        justify-content: space-between;
+        width: 935px;
+    }
+
+    .stories {
+        display: flex;
+        margin-left: 0;
+    }
+    main .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 0;
+        margin-top: 0px;
+    }
+
+    aside {
+        display:none;
+    }
+}
+
+@media (max-width:614px) {
+
+    header input {
+        display: none;
+    }
+
+    header .logo-instagram {
+        display: none;
+    }
+    
+    header .logo-instagram-mobile {
+        display: flex;
+        width: 614px;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20px;
+    }
+
+    header .logo-instagram-mobile img{
+        width: 30px;
+        height: 30px;
+    }
+
+    header .logo-instagram-mobile .logo-text{
+        width: 100px;
+    }
+
+    header {
+        width:614px;
+    }
+
+    header .logo-instagram {
+        justify-content: space-between;
+    }
+
+    header .rectangle {
+        display: none;
+    }
+
+    nav img {
+        display: none;
+    }
+    
+    .stories{
+        margin-top: 60px;
+        width: 614px;
+    }
+
+    main .content {
+        width: 100%;
+    }
+
+    footer {
+        width: 612px;
+        height: 54px;
+        background-color: white;
+        border:1px solid #DBDBDB;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        position:fixed;
+        bottom:0;
+        left:0;
+    }
+}
